@@ -3,6 +3,8 @@
 ## Visão Geral
 Este projeto visa desenvolver um modelo preditivo para estimar com precisão o tempo de entrega de pedidos de e-commerce, utilizando dados históricos da Olist. O objetivo é melhorar a experiência do cliente, fornecendo prazos mais realistas e reduzindo a frustração causada por atrasos.
 
+O modelo preditivo de logística superou o baseline padrão em 11% de precisão (redução de MAE). A otimização permite alinhar a expectativa do cliente com a realidade logística, atacando diretamente a principal causa de insatisfação no e-commerce: a falsa promessa de prazo.
+
 ## 1. Entendimento do Negócio (Business Understanding)
 *   **Objetivo**: Prever o tempo de entrega (em dias) entre a aprovação do pagamento e a entrega ao cliente.
 *   **Problema**: Atrasos na entrega impactam negativamente a satisfação do cliente e as avaliações do serviço.
