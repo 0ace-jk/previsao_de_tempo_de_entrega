@@ -57,6 +57,8 @@ Os modelos foram avaliados utilizando as métricas **MAE** (Erro Absoluto Médio
 | **Random Forest** | **Rota** | **4.337500** | **6.752988** |
 | XGBoost | Rota | 4.481675 | 6.907052 |
 
+Em comparação com o baseline (Random Forest no Cenário 1), o melhor modelo (Random Forest no Cenário 4) obteve uma redução de **10.85% no MAE** e **8.05% no RMSE**, demonstrando um ganho significativo na precisão das previsões.
+
 **Conclusão**: A introdução das variáveis de Rota (Cenário 4) foi determinante para a maximização da performance. O modelo **Random Forest no Cenário 4** apresentou o melhor desempenho global, com um **RMSE de 6.75**, validando a hipótese de que componentes geoespaciais e históricos de rota são preditores cruciais para o tempo de entrega.
 
 ## 6. Implantação (Deployment)
